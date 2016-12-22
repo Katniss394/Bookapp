@@ -36,8 +36,6 @@ public class MainActivity extends AppCompatActivity {
         public void onPageFinished(WebView view, String url) {
 
             getSupportActionBar().show();
-            findViewById(R.id.iView).setVisibility(View.GONE);
-            //show webview
             findViewById(R.id.wView).setVisibility(View.VISIBLE);
         }
     }
